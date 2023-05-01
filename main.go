@@ -1,7 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"kafkago/kafka"
+	"time"
+)
 
 func main() {
-	fmt.Println("Hello World!")
+	fmt.Println("Okay...")
+	kafka.StartKafka()
+
+	fmt.Println("Kafka has been started...")
+
+	time.Sleep(10 * time.Minute)
 }
