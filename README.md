@@ -33,3 +33,11 @@ kafka-console-consumer.bat --topic test --bootstrap-server localhost:9092 --from
 .\bin\windows\kafka-server-stop.bat .\config\server.properties
 
 ```
+
+### after testing kafka-console-consumer with real consumer and producer
+
+## kafka run with go
+
+```sh
+go run main.go
+```
