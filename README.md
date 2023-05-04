@@ -1,8 +1,8 @@
 # kafka-golang
 
-## Kafka
+## Kafka Start Up
 
-# Required Commands:
+### Required Commands:
 
 ```sh
 
